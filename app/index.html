@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Круг</title>
+<meta name="description" content="Дневник еды, в котором запись занимает секунды.">
+<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Круг">
+<link rel="icon" href="/krug-web/icons/favicon-64.png">
+<link rel="apple-touch-icon" href="/krug-web/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<script>
+  // The theme the profile chose, before the first paint: no white flash in the dark.
+  try {
+    var t = localStorage.getItem('theme')
+    if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+  } catch (e) {}
+</script>
+  <script type="module" crossorigin src="/krug-web/assets/app-8jzEMMHs.js"></script>
+  <link rel="modulepreload" crossorigin href="/krug-web/assets/modulepreload-polyfill-P2Xu9kJm.js">
+  <link rel="stylesheet" crossorigin href="/krug-web/assets/app-CYSOBZyx.css">
+<link rel="manifest" href="/krug-web/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/krug-web/registerSW.js" defer></script></head>
+<body>
+<div id="app"></div>
+</body>
+</html>
